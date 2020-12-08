@@ -1,0 +1,36 @@
+~pseudocode for project~
+
+*include required libraries*
+
+int ultrasonicSensor;
+int microServo;
+int led;
+int bluetooth;
+int lcd;
+int buzzer;
+int capturedValue;
+*array/vector of previous captured values*
+
+*setup required devices*
+
+*loop*
+- read in values from the ultrasonic sensor and store it in capturedValue
+
+- multiple if-else statements to display specific output for any capturedValue
+
+- if value is too less (i.e. collison occurs), call collison function
+
+- store the value the array
+
+- if certain time has passed -> call the "driving_habit" function 
+
+
+*collison*
+-> rings the buzzer
+-> sends notification to the connected user
+
+*driving_habit*
+->process the data in array/vector to give specific feedback to the user
+->sends notification to the user
+
+
